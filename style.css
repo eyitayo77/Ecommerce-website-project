@@ -150,7 +150,7 @@ img{
 }
 
 
-/*Show menu*/
+ /* Show menu */
 .show{
   left: 0;
 }
@@ -161,7 +161,7 @@ img{
   position: relative;
 }
 
-.active::before{
+/* .active::before{
   content: '';
   position: absolute;
   bottom: -5rem;
@@ -170,7 +170,7 @@ img{
   height: 4px;
   background-color: var(--dark-color);
   border-radius: 50%;
-}
+} */ */
 
 
 /*Change color header*/
@@ -353,22 +353,7 @@ img{
    transition: bottom 0.3s ease;
 }
 
-.new__sneaker-overlay{
-  position: absolute;
-  left: 0;
-  bottom: -100%;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(138,138,138,.3);
-}
 
-.new__sneaker-card:hover .new__sneaker-overlay{
-  bottom: 0;
-
-}
 /*===== NEWSLETTER =====*/
 .newsletter__container{
   background-color: var(--dark-color);
